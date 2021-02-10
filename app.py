@@ -5,7 +5,7 @@ Created on Wed Feb 10 11:22:23 2021
 @author: Sundar
 """
 from flask import Flask,render_template,url_for,request
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble.forest import RandomForestClassifier
 from sklearn.feature_extraction.text import CountVectorizer
 import joblib
 import pandas as pd 
